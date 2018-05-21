@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+
+
+#header{
+	height:130px;
+	width:100%;
+	border:none;
+	
+}
+#merge{
+	height:400px;
+	width:100%;
+	border:none;
+}
+#footer{
+	height:60px;
+	width:100%;
+	border:none;
+	
+	
+}
+div{
+	border:1px solid grey;
+}

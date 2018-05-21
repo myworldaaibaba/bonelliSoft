@@ -1,0 +1,33 @@
+<html>
+<head>
+<script type="text/javascript" src="registration.js">
+</script>
+<link rel="stylesheet" type="text/css" href="registration.css"/>
+</head>
+<body bgColor="lightgrey">
+<h1>
+Registration form
+</h1>
+<form name="myForm" action="registration" method="post" onsubmit=" return msg()">
+<input placeholder="Wing No" type="text" name="wing" id="get"><br><br>
+<input placeholder="Flat No" type="number" name="fnumber" id="get"><br><br>
+<input placeholder="First Name"   type="text" name="fname" id="get">&nbsp;&nbsp;&nbsp;
+<input placeholder="Middle Name"  type="text" name="mname" id="get">&nbsp;&nbsp;&nbsp;
+<input placeholder="Last Name"    type="text" name="lname" id="get"><br><br>
+<label>Gender: </label> &nbsp;
+<label>Male</label><input type="radio" value="male" name="gender">
+<label>Female</label><input type="radio" value="female" name="gender">
+<label>Transgender</label><input type="radio" value="trans" name="gender"><br><br>
+<input placeholder="Mobile Number" type="tel" name="mnumber" id="get">&nbsp;&nbsp;&nbsp;
+<input placeholder=" Alternative Mobile No" type="tel" name="amnumber" id="get"><br><br>
+<input placeholder="Email-Id" type="email" name="id" id="get"><br><br>
+<input placeholder="No Of family member" type="number" name="familyno" id="get"><br><br>
+<!--  <label>Family INFO </label><textArea></textArea><br>-->
+<label>U R: </label> &nbsp;
+<label>Owner</label><input type="radio" value="owner" name="you">
+<label>Rental</label><input type="radio" value="rental" name="you">
+<br><br>
+<input type="submit" value="submit" id="sub">
+</form>
+</body>
+</html>

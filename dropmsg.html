@@ -1,0 +1,39 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="login.css"/>
+<script>
+function check(elem){
+	if(elem.selectedIndex==1){
+		document.getElementById("other-div").style.display='block';
+		}else{
+			document.getElementById("other-div").style.display='none';
+
+		}
+}
+
+</script>
+<script type="text/javascript" src="dropmsg.js"></script>
+</head>
+<body>
+<h3>Send Message</h3>
+
+<form name="myForm" action="sharing" method="get" onsubmit=" return add()">
+<label style=font-weight:bold;font-size:18px;>To</label> &nbsp;&nbsp;
+<select name="To" id ="get" onChange="check(this);">
+<option value="" selected="selected">Select Recevier</option>
+<option value="single">Individual</option>
+<option value="all">All</option>
+<option value="admin">Admin</option>
+</select>
+<br><br><div id="other-div" style="display:none;">
+<label style=font-weight:bold;font-size:18px;> Flat No</label> &nbsp;&nbsp;
+<input type="text" name="flatno" placeholder=" Receiver flat no" id="get" value="0">
+</div>
+<br><br><label style=font-weight:bold;font-size:18px;>Name of Sender</label> &nbsp;&nbsp;
+<input type="text" name="name" placeholder="sender name" id="get"><br><br>
+<label style=font-weight:bold;font-size:18px;>Detail Msg</label>&nbsp;&nbsp; 
+<br><textarea rows="3" cols="50" id="get" name="text"></textarea><br><br>
+<input type="submit" value="Submit" id="sub">
+</form>
+</body>
+</html>

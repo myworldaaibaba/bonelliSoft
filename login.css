@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color:lightgrey;
+}
+
+
+#get{
+	-moz-border-radius:5px;
+	border-radius:10px;
+	border:solid 1px black;
+	padding:10px;
+	background-color:lightyellow;
+	width:35%;
+}
+#reg{
+	-moz-border-radius:5px;
+	border-radius:10px;
+	border:solid 1px black;
+	padding:13px;
+background-color:azure;	
+}
+#sub{
+	
+	-moz-border-radius:5px;
+	border-radius:10px;
+	border:solid 1px black;
+	padding:13px;
+	background-color:limegreen;
+	width:15%;	
+	
+
+}
+
+a{
+	text-decoration:none;
+	margin-left:3%;
+	color:blue;
+}
